@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e43b860-eec8-4d49-bddf-8ed6ba656060" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMyShow.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookMyShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegisteredUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Theater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="2e43b860-eec8-4d49-bddf-8ed6ba656060" name="Changes" comment="BookMyShow" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +44,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671676714860</updated>
     </task>
+    <task id="LOCAL-00001" summary="BookMyShow">
+      <created>1671678773208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671678773208</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,5 +64,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BookMyShow" />
+    <option name="LAST_COMMIT_MESSAGE" value="BookMyShow" />
   </component>
 </project>
