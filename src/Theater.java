@@ -1,14 +1,17 @@
 import java.util.ArrayList;
+import java.util.Calendar;
 
 public class Theater {
+    private static int idCounter=0;
     private  int id;
     private String name;
     private String location;
     private int capacity;
     private ArrayList<Show> show;
 
-    public Theater(int id, String name, String location, int capacity) {
-        this.id = id;
+    public Theater( String name, String location, int capacity) {
+        idCounter += 1;
+        this.id = idCounter;
         this.name = name;
         this.location = location;
         this.capacity = capacity;
@@ -17,10 +20,6 @@ public class Theater {
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -53,5 +52,9 @@ public class Theater {
 
     public void setShow(ArrayList<Show> show) {
         this.show = show;
+    }
+
+    public ArrayList<Show> getShows() {
+        return show;
     }
 }

@@ -1,18 +1,26 @@
 import java.util.Date;
 
 public class Ticket {
+    private static int idCounter=0;
     private int id;
-    private String ownerName;
+    private String owner;
     private Date bookingTime;
-    private int noOfSeats;
+    private int numberOfSeats;
     private Show bookedShow;
 
+    public Ticket() {
+        idCounter += 1;
+        this.id = idCounter;
+    }
     public Ticket(int id, String ownerName, Date bookingTime, int noOfSeats, Show bookedShow) {
         this.id = id;
-        this.ownerName = ownerName;
+        this.owner = ownerName;
         this.bookingTime = bookingTime;
-        this.noOfSeats = noOfSeats;
+        this.numberOfSeats = noOfSeats;
         this.bookedShow = bookedShow;
+    }
+    public String getTicketInfo(){
+        return null;
     }
 
     public int getId() {
@@ -23,12 +31,12 @@ public class Ticket {
         this.id = id;
     }
 
-    public String getOwnerName() {
-        return ownerName;
+    public String getOwner() {
+        return owner;
     }
 
-    public void setOwnerName(String ownerName) {
-        this.ownerName = ownerName;
+    public void setOwner(String ownerName) {
+        this.owner = ownerName;
     }
 
     public Date getBookingTime() {
@@ -39,12 +47,12 @@ public class Ticket {
         this.bookingTime = bookingTime;
     }
 
-    public int getNoOfSeats() {
-        return noOfSeats;
+    public int getNumberOfSeats() {
+        return numberOfSeats;
     }
 
-    public void setNoOfSeats(int noOfSeats) {
-        this.noOfSeats = noOfSeats;
+    public void setNumberOfSeats(int noOfSeats) {
+        this.numberOfSeats = noOfSeats;
     }
 
     public Show getBookedShow() {
@@ -53,5 +61,15 @@ public class Ticket {
 
     public void setBookedShow(Show bookedShow) {
         this.bookedShow = bookedShow;
+    }
+
+    @Override
+    public String toString() {
+        return "Ticket{" +
+                "owner='" + owner + '\'' +
+                ", bookingTime=" + bookingTime +
+                ", numberOfSeats=" + numberOfSeats +
+                ", bookedShow=" + bookedShow +
+                '}';
     }
 }
